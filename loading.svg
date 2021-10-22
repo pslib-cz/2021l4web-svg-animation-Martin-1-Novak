@@ -1,0 +1,43 @@
+<svg viewBox="0 0 27.5 27.5" xmlns="http://www.w3.org/2000/svg">
+    <polygon points="10,10 10,14 14,12" style="fill: black;" >
+            <animateTransform attributeName="transform"
+                          attributeType="XML"
+                          begin="0s"
+                          type="rotate"
+                          from="0 14 12"
+                          to="360 14 12"
+                          dur="2s"
+                          repeatCount="indefinite"/>
+    </polygon>
+    <polygon points="14,12 18,10 18,14" stroke-width="0.2" style="fill" >
+            <animateTransform attributeName="transform"
+                          attributeType="XML"
+                          begin="0s"
+                          type="rotate"
+                          from="0 14 12"
+                          to="360 14 12"
+                          dur="2s"
+                          repeatCount="indefinite"/>
+    </polygon>
+<circle cx="14" cy="12" r="4.5" stroke="black" stroke-width="0.2" fill="none" />
+<circle cx="8" cy="12" r="0.7" stroke="black" stroke-width="0.2" fill="none" >
+            <animateTransform attributeName="transform"
+                          attributeType="XML"
+                          begin="0s"
+                          type="rotate"
+                          from="360 14 12"
+                          to="0 14 12"
+                          dur="2s"
+                          repeatCount="indefinite"/>
+    </circle>
+<circle cx="20" cy="12" r="0.7" stroke="black" stroke-width="0.2" fill="none" >
+            <animateTransform attributeName="transform"
+                          attributeType="XML"
+                          begin="0s"
+                          type="rotate"
+                          from="360 14 12"
+                          to="0 14 12"
+                          dur="2s"
+                          repeatCount="indefinite"/>
+    </circle>
+</svg>
